@@ -1,0 +1,2605 @@
+
+#include "textflag.h"
+#include "funcdata.h"
+
+
+
+TEXT ·makeFuncStub0(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$0, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub1(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$1, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub2(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$2, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub3(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$3, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub4(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$4, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub5(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$5, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub6(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$6, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub7(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$7, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub8(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$8, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub9(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$9, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub10(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$10, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub11(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$11, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub12(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$12, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub13(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$13, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub14(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$14, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub15(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$15, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub16(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$16, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub17(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$17, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub18(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$18, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub19(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$19, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub20(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$20, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub21(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$21, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub22(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$22, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub23(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$23, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub24(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$24, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub25(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$25, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub26(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$26, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub27(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$27, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub28(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$28, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub29(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$29, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub30(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$30, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub31(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$31, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub32(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$32, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub33(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$33, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub34(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$34, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub35(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$35, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub36(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$36, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub37(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$37, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub38(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$38, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub39(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$39, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub40(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$40, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub41(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$41, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub42(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$42, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub43(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$43, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub44(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$44, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub45(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$45, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub46(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$46, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub47(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$47, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub48(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$48, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub49(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$49, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub50(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$50, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub51(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$51, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub52(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$52, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub53(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$53, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub54(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$54, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub55(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$55, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub56(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$56, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub57(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$57, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub58(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$58, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub59(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$59, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub60(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$60, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub61(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$61, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub62(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$62, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub63(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$63, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub64(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$64, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub65(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$65, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub66(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$66, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub67(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$67, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub68(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$68, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub69(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$69, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub70(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$70, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub71(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$71, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub72(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$72, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub73(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$73, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub74(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$74, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub75(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$75, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub76(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$76, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub77(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$77, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub78(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$78, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub79(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$79, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub80(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$80, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub81(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$81, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub82(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$82, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub83(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$83, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub84(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$84, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub85(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$85, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub86(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$86, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub87(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$87, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub88(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$88, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub89(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$89, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub90(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$90, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub91(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$91, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub92(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$92, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub93(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$93, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub94(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$94, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub95(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$95, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub96(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$96, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub97(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$97, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub98(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$98, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub99(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$99, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub100(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$100, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub101(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$101, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub102(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$102, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub103(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$103, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub104(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$104, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub105(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$105, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub106(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$106, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub107(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$107, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub108(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$108, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub109(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$109, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub110(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$110, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub111(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$111, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub112(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$112, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub113(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$113, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub114(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$114, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub115(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$115, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub116(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$116, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub117(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$117, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub118(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$118, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub119(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$119, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub120(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$120, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub121(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$121, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub122(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$122, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub123(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$123, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub124(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$124, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub125(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$125, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub126(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$126, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub127(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$127, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub128(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$128, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub129(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$129, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub130(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$130, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub131(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$131, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub132(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$132, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub133(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$133, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub134(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$134, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub135(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$135, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub136(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$136, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub137(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$137, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub138(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$138, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub139(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$139, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub140(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$140, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub141(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$141, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub142(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$142, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub143(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$143, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub144(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$144, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub145(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$145, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub146(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$146, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub147(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$147, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub148(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$148, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub149(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$149, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub150(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$150, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub151(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$151, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub152(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$152, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub153(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$153, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub154(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$154, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub155(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$155, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub156(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$156, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub157(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$157, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub158(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$158, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub159(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$159, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub160(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$160, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub161(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$161, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub162(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$162, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub163(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$163, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub164(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$164, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub165(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$165, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub166(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$166, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub167(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$167, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub168(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$168, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub169(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$169, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub170(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$170, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub171(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$171, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub172(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$172, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub173(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$173, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub174(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$174, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub175(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$175, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub176(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$176, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub177(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$177, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub178(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$178, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub179(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$179, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub180(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$180, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub181(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$181, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub182(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$182, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub183(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$183, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub184(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$184, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub185(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$185, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub186(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$186, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub187(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$187, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub188(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$188, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub189(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$189, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub190(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$190, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub191(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$191, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub192(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$192, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub193(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$193, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub194(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$194, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub195(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$195, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub196(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$196, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub197(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$197, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub198(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$198, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
+
+TEXT ·makeFuncStub199(SB),(NOSPLIT|WRAPPER),$32
+	NO_LOCAL_POINTERS
+	MOVQ	$199, 0(SP)
+	LEAQ	argframe+0(FP), CX
+	MOVQ	CX, 8(SP)
+	MOVB	$0, 24(SP)
+	LEAQ	24(SP), AX
+	MOVQ	AX, 16(SP)
+	CALL	·myCallReflect(SB)
+	RET
+
+
