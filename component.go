@@ -35,6 +35,8 @@ type fnContext struct {
 
 type object struct {
 	table map[string]*wrapper
+	fc    *fnContext // avoid gc
+	ref   []int64 // avoid gc
 }
 
 var appContext = map[string]*object{}
@@ -87,10 +89,10 @@ func Component(i interface{}) {
 
 	fc.Methods = make([]*wrapper, n)
 	obj.table = make(map[string]*wrapper, n)
-
+	obj.fc = fc
+	obj.ref = arr
 	for i := 0; i < n; i++ {
 		wp := buildWrapper(name, ovp.Type().Method(i).Name, ovp.Method(i), ovp.Type().Method(i).Type)
-
 		obj.table[ovp.Type().Method(i).Name] = wp
 		fc.Methods[i] = wp
 
