@@ -27,6 +27,8 @@ type PostCall func(in, out []reflect.Value)
 
 type PreCall func(in []reflect.Value)
 
+type AroundCall func(in []reflect.Value, next func([]reflect.Value) []reflect.Value) (out []reflect.Value)
+
 type fnContext struct {
 	Name    string
 	Origin  reflect.Value
@@ -36,7 +38,7 @@ type fnContext struct {
 type object struct {
 	table map[string]*wrapper
 	fc    *fnContext // avoid gc
-	ref   []int64 // avoid gc
+	ref   []int64    // avoid gc
 }
 
 var appContext = map[string]*object{}
@@ -48,15 +50,36 @@ type wrapper struct {
 }
 
 type Extend struct {
-	Pre  []PreCall
-	Post []PostCall
+	Pre    []PreCall
+	Around []AroundCall
+	Post   []PostCall
+}
+
+type aroundState struct {
+	current int
+	calls   []AroundCall
+	final   func(in []reflect.Value) (out []reflect.Value)
+}
+
+func (a *aroundState) Call(in []reflect.Value) (out []reflect.Value) {
+	curr := a.current
+	if len(a.calls) == curr {
+		return a.final(in)
+	}
+	a.current++
+	return a.calls[curr](in, a.Call)
 }
 
 func (w *wrapper) Call(in []reflect.Value) (out []reflect.Value) {
 	for _, itt := range w.extend.Pre {
 		itt(in)
 	}
-	out = w.method.Call(in)
+	as := &aroundState{
+		current: 0,
+		calls:   w.extend.Around,
+		final:   w.method.Call,
+	}
+	out = as.Call(in)
 	for _, itt := range w.extend.Post {
 		itt(in, out)
 	}
